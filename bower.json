@@ -1,0 +1,19 @@
+{
+  "name": "WebProjectTemplate",
+  "version": "1.0.0",
+  "authors": [
+    "Mark Heramis"
+  ],
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*"
+  ],
+  "devDependencies": {},
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "Ionicons": "ionicons#^2.0.1",
+    "jquery-ui": "jqueryui#^1.12.1"
+  }
+}
