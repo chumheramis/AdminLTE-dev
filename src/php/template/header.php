@@ -6,17 +6,15 @@
     <?php site_title(); ?>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <!-- Bootstrap 3.3.6 -->
-    <?php $assets->get_style('css/bootstrap.min.css'); ?>
-    <!-- Font Awesome -->
-    <?php $assets->get_style('plugins/font-awesome/css/font-awesome.min.css'); ?>
-    <!-- Ionicons -->
-    <?php $assets->get_style('plugins/Ionicons/css/ionicons.min.css'); ?>
-    <!-- Theme style -->
-    <?php $assets->get_style('css/AdminLTE.min.css'); ?>
-    <!-- AdminLTE Skins. Choose a skin from the css/skins
-       folder instead of downloading all of them to reduce the load. -->
-    <?php $assets->get_style('css/skins/_all-skins.min.css'); ?>
+    <!-- Base -->
+    <?php $assets->get_styles('base'); ?>
+    <!-- /Base -->
+    <!-- Plugins -->
+    <?php $assets->get_styles('plugins'); ?>
+    <!-- /Plugins -->
+    <!-- Theme -->
+    <?php $assets->get_styles('theme'); ?>
+    <!-- /Theme -->
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

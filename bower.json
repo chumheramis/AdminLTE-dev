@@ -12,7 +12,7 @@
   ],
   "devDependencies": {},
   "dependencies": {
-    "jquery": "^3.2.1",
+    "jquery": "2.2.3",
     "Ionicons": "ionicons#^2.0.1",
     "jquery-ui": "jqueryui#^1.12.1"
   }
